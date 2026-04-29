@@ -1,0 +1,526 @@
+{
+  "name": "X-Cultural Translation Benchmark Public Seed Data",
+  "version": "2026-04-29",
+  "total_rows": 1470,
+  "files": [
+    {
+      "pair": "en2es",
+      "file": "data/en2es.jsonl",
+      "rows": 106
+    },
+    {
+      "pair": "en2ja",
+      "file": "data/en2ja.jsonl",
+      "rows": 103
+    },
+    {
+      "pair": "en2zh",
+      "file": "data/en2zh.jsonl",
+      "rows": 111
+    },
+    {
+      "pair": "es2en",
+      "file": "data/es2en.jsonl",
+      "rows": 134
+    },
+    {
+      "pair": "es2zh",
+      "file": "data/es2zh.jsonl",
+      "rows": 166
+    },
+    {
+      "pair": "ja2en",
+      "file": "data/ja2en.jsonl",
+      "rows": 116
+    },
+    {
+      "pair": "ja2zh",
+      "file": "data/ja2zh.jsonl",
+      "rows": 106
+    },
+    {
+      "pair": "ru2zh",
+      "file": "data/ru2zh.jsonl",
+      "rows": 125
+    },
+    {
+      "pair": "zh2en",
+      "file": "data/zh2en.jsonl",
+      "rows": 125
+    },
+    {
+      "pair": "zh2es",
+      "file": "data/zh2es.jsonl",
+      "rows": 146
+    },
+    {
+      "pair": "zh2ja",
+      "file": "data/zh2ja.jsonl",
+      "rows": 137
+    },
+    {
+      "pair": "zh2ru",
+      "file": "data/zh2ru.jsonl",
+      "rows": 95
+    }
+  ],
+  "csi_terms_per_record": {
+    "1": 748,
+    "2": 420,
+    "3": 177,
+    "4": 76,
+    "5": 20,
+    "6": 15,
+    "7": 6,
+    "8": 4,
+    "9": 2,
+    "10": 2
+  },
+  "records_with_src_compact_chars": 1,
+  "records_with_tgt_compact_chars": 3,
+  "validation": {
+    "total": 1470,
+    "build_side_status": {
+      "unique_exact": 2936,
+      "unique_exact_by_length": 4
+    },
+    "validation_status": {
+      "both_reconstructable": 1470
+    },
+    "src_anchor_widths": {
+      "5": 1263,
+      "6": 86,
+      "7": 35,
+      "8": 28,
+      "9": 19,
+      "10": 14,
+      "11": 7,
+      "12": 3,
+      "13": 3,
+      "14": 5,
+      "16": 3,
+      "17": 1,
+      "19": 2,
+      "20": 1
+    },
+    "tgt_anchor_widths": {
+      "4": 3,
+      "5": 1048,
+      "6": 121,
+      "7": 80,
+      "8": 59,
+      "9": 37,
+      "10": 38,
+      "11": 27,
+      "12": 19,
+      "13": 9,
+      "14": 10,
+      "15": 4,
+      "16": 7,
+      "17": 1,
+      "18": 2,
+      "19": 1,
+      "20": 4
+    }
+  },
+  "chapter_id_semantics": {
+    "base": 1,
+    "meaning": "chapter_id is the 1-based chapter number in the prepared book JSON files",
+    "chapter_text": "for each book_id/lang/chapter_id, concatenate all text fields with that chapter_id in JSON order separated by one space",
+    "chapter_title": "metadata only; it is included in reconstruction only if it also appears as a text field"
+  },
+  "book_versions": [
+    {
+      "book_id": "anna",
+      "lang": "en",
+      "identifier": "9780559067914",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9780559067914"
+        ],
+        "isbn10": [
+          "0559067917"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 239
+    },
+    {
+      "book_id": "anna",
+      "lang": "es",
+      "identifier": "9781413521825",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9781413521825"
+        ],
+        "isbn10": [
+          "1413521827"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 239
+    },
+    {
+      "book_id": "anna",
+      "lang": "ja",
+      "identifier": "B00AQRYO6S",
+      "identifier_type": "asin",
+      "identifier_candidates": {
+        "isbn13": [],
+        "isbn10": [],
+        "asin": [
+          "B00AQRYO6S",
+          "B00AQRYO72",
+          "B00AQRYOAY"
+        ]
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 239
+    },
+    {
+      "book_id": "anna",
+      "lang": "ru",
+      "identifier": "9785699289004",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9785699289004"
+        ],
+        "isbn10": [
+          "5699289003"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 239
+    },
+    {
+      "book_id": "anna",
+      "lang": "zh",
+      "identifier": "9787532758999",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9787532758999"
+        ],
+        "isbn10": [
+          "7532758990"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 239
+    },
+    {
+      "book_id": "don_quiuxote",
+      "lang": "es",
+      "identifier": "9788411435505",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9788411435505"
+        ],
+        "isbn10": [],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 126
+    },
+    {
+      "book_id": "don_quiuxote",
+      "lang": "zh",
+      "identifier": "9787020102761",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9787020102761"
+        ],
+        "isbn10": [
+          "702010276X"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 126
+    },
+    {
+      "book_id": "finn",
+      "lang": "en",
+      "identifier": "9781101200049",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9781101200049"
+        ],
+        "isbn10": [
+          "1101200049"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 43
+    },
+    {
+      "book_id": "finn",
+      "lang": "es",
+      "identifier": "9788491052265",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9788491052265"
+        ],
+        "isbn10": [
+          "8491052267"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 43
+    },
+    {
+      "book_id": "finn",
+      "lang": "ja",
+      "identifier": "B00C0NTMBS",
+      "identifier_type": "asin",
+      "identifier_candidates": {
+        "isbn13": [],
+        "isbn10": [],
+        "asin": [
+          "B00C0NTMBS"
+        ]
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 43
+    },
+    {
+      "book_id": "finn",
+      "lang": "zh",
+      "identifier": "9787020099023",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9787020099023"
+        ],
+        "isbn10": [],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 43
+    },
+    {
+      "book_id": "gatsby",
+      "lang": "en",
+      "identifier": "9780743273565",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9780743273565"
+        ],
+        "isbn10": [
+          "0743273567"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 9
+    },
+    {
+      "book_id": "gatsby",
+      "lang": "es",
+      "identifier": "9788433975744",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9788433975744"
+        ],
+        "isbn10": [],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 9
+    },
+    {
+      "book_id": "gatsby",
+      "lang": "ja",
+      "identifier": "B00H6XBHMY",
+      "identifier_type": "asin",
+      "identifier_candidates": {
+        "isbn13": [],
+        "isbn10": [],
+        "asin": [
+          "B00H6XBHMY"
+        ]
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 9
+    },
+    {
+      "book_id": "gatsby",
+      "lang": "ru",
+      "identifier": "9785170888306",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9785170888306"
+        ],
+        "isbn10": [
+          "5170888309"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 9
+    },
+    {
+      "book_id": "gatsby",
+      "lang": "zh",
+      "identifier": "9787549625086",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9787549625086"
+        ],
+        "isbn10": [
+          "7549625085"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 9
+    },
+    {
+      "book_id": "live",
+      "lang": "en",
+      "identifier": "9781400031863",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9781400031863"
+        ],
+        "isbn10": [
+          "1400031869"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 1
+    },
+    {
+      "book_id": "live",
+      "lang": "es",
+      "identifier": "9788432228735",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9788432228735"
+        ],
+        "isbn10": [],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 1
+    },
+    {
+      "book_id": "live",
+      "lang": "ja",
+      "identifier": "9784122066861",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9784122066861"
+        ],
+        "isbn10": [],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 1
+    },
+    {
+      "book_id": "live",
+      "lang": "ru",
+      "identifier": "9785751612597",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9785751612597"
+        ],
+        "isbn10": [
+          "5751612590"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 1
+    },
+    {
+      "book_id": "live",
+      "lang": "zh",
+      "identifier": "9787530215593",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9787530215593"
+        ],
+        "isbn10": [
+          "7530215590"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 1
+    },
+    {
+      "book_id": "old_capital",
+      "lang": "en",
+      "identifier": "9781593760328",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9781593760328"
+        ],
+        "isbn10": [
+          "1593760329"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 9
+    },
+    {
+      "book_id": "old_capital",
+      "lang": "ja",
+      "identifier": "B0FH69BRZQ",
+      "identifier_type": "asin",
+      "identifier_candidates": {
+        "isbn13": [],
+        "isbn10": [],
+        "asin": [
+          "B0FH69BRZQ"
+        ]
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 9
+    },
+    {
+      "book_id": "old_capital",
+      "lang": "zh",
+      "identifier": "9787544269797",
+      "identifier_type": "isbn13",
+      "identifier_candidates": {
+        "isbn13": [
+          "9787544269797"
+        ],
+        "isbn10": [
+          "7544269795"
+        ],
+        "asin": []
+      },
+      "chapter_id_base": 1,
+      "chapter_count": 9
+    }
+  ]
+}
