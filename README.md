@@ -117,6 +117,12 @@ Use `--translation-field` if the model output field cannot be detected automatic
 
 See [`eval/README.md`](eval/README.md) for more examples.
 
+## Heuristics of evaluation
+
+If you are to view the evaluation system from the perspective of translation, the five aspects entail the entities involved in the process of translation, that is the author, the translator/medium and the reader. 
+The **fidelity** and **contextual accuracy** deals with the author part, as they describe how well the meaning of the original sentence is retained as well as how well the CSIs fit into the context. 
+The **functional equivalence** deals with the translator, reflecting how well of the function of the author is translated into the destination.
+The **naturalness** and **cultural adaptation** deals with the reader part, reflecting how natural the translation sounds as well as how well they would grasp the translated culturally specific items. 
 
 ## Copyright and Responsible Use
 
